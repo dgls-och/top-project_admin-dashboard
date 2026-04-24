@@ -1,6 +1,7 @@
 :root {
   --small-font: 1.2rem;
   --bold: 600;
+  --main-font: 1.8rem;
   --image-border: 0.4rem solid;
 }
 
@@ -24,7 +25,7 @@ body {
 
 .wrapper {
   display: grid;
-  grid-template-rows: 2fr 5fr;
+  grid-template-rows: 1fr 5fr;
   grid-template-columns: 1fr 5fr;
 }
 
@@ -32,7 +33,7 @@ body {
   background: #fff;
   color: #2f3f4f;
   grid-area: 1 / 2 / 2 / 3;
-  font-size: 1.8rem;
+  font-size: var(--main-font);
   padding: 2rem;
 }
 
@@ -47,14 +48,16 @@ body {
   border: 1px solid;
   height: 100px;
   background: blue;
-  grid-area: 1 / 1 / 3;
+  grid-area: 1 / 1 / 3 / 2;
+  font-size: var(--main-font);
+  padding-left: 1rem;
 }
 
 .small-text {
   font-size: var(--small-font);
 }
 
-/* header components */
+/* header */
 .nav-bar-1 {
   display: flex;
   justify-content: space-between;
@@ -139,4 +142,27 @@ body {
 
 .button-margin {
   margin: 0 2rem;
+}
+
+/* sidebar */
+.branding {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin: 2rem 1rem 4rem;
+}
+
+.branding img {
+  border-radius: 2rem;
+  border: var(--image-border);
+}
+
+.sidebar .user-links,
+.sidebar .system-links {
+  margin-bottom: 4rem;
+}
+
+.sidebar li {
+  list-style: none;
+  margin-bottom: 1rem;
 }
