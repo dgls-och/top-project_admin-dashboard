@@ -70,7 +70,7 @@ body {
 
 .nav-bar-1 .search img {
   border-radius: 75%;
-  border: var(--image-border);
+  margin-block-start: 1.3rem;
   width: 3rem;
 }
 
