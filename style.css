@@ -70,7 +70,7 @@ body {
 
 .nav-bar-1 .search img {
   border-radius: 75%;
-  margin-block-start: 1.3rem;
+  margin-block-start: 1rem;
   width: 3rem;
 }
 
@@ -85,7 +85,7 @@ body {
 .divider {
   display: flex;
   align-items: center;
-  gap: 4rem;
+  gap: 3rem;
 }
 
 .nav-bar-1 .notification-icon img {
@@ -96,7 +96,7 @@ body {
 .nav-bar-1 .user-profile {
   display: flex;
   align-items: center;
-  gap: 3rem;
+  gap: 1.5rem;
 }
 
 .nav-bar-1 .user-profile img {
@@ -107,6 +107,7 @@ body {
 .nav-bar-1 .user-profile .user-name {
   color: #000;
   text-decoration: none;
+  margin-block-end: 0.7rem;
 }
 
 .nav-bar-2 {
