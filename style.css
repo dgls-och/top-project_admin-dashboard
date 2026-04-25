@@ -148,12 +148,29 @@ body {
   display: flex;
   align-items: center;
   gap: 1.5rem;
-  margin: 2rem 1rem 4rem;
+  margin: 2rem 0.5rem 4rem;
+}
+
+.branding h1 {
+  font-weight: var(--bold);
 }
 
 .branding img {
   border-radius: 2rem;
-  border: var(--image-border);
+}
+
+.sidebar a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: var(--bold);
+  display: flex;
+  align-items: center;
+}
+
+.sidebar a:hover {
+  background-color: #efefef55;
+  padding: 0.3rem;
+  border-radius: 0.5rem 0 0 0.5rem;
 }
 
 .sidebar .user-links,
