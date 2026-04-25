@@ -254,6 +254,11 @@ body {
 }
 
 .trends img {
-  border: var(--image-border);
+  border: var(--image-border) #202a35;
   border-radius: 50%;
+}
+
+.trends a {
+  color: #ffa500;
+  font-weight: var(--bold);
 }
